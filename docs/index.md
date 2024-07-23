@@ -1,92 +1,46 @@
-# UBC Wiki Project
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
+hero:
+  name: "UBC Community Wiki"
+  text: "A central location for UBC guides and tools"
+  tagline: "This is a community driven project made possible by many different contributors. Thank you ❤️"
+  actions:
+    - theme: brand
+      text: Contribute to the wiki
+      link: .#contributing
+    - theme: alt
+      text: Reddit (r/UBC) 
+      link: https://reddit.com/r/UBC
+    - theme: alt
+      text: Fediverse (UBC@lemmy.ca)
+      link: https://lemmy.ca/c/UBC
+
+features:
+  - title: ✨ Essential Tools & Guides
+    details: Includes guides and community built tools for admissions, course registration, finding textbooks, mental health resources. and more.
+  - title: 📌 Get around Campus
+    details: Includes guides and tools for places to visit, study spots, food spots, lost & found, as well as lockers, printers, showers, nap/sleep spots, etc.
 ---
 
-<p style="font-size:24px;">A central location for guides, tools, and information about UBC</p>
+## Our Communities
 
-This is a community driven project made possible by many cool contributors. Thank you ❤️
+<div style="display: flex; gap: 16px; align-items: stretch; padding: 10px">
+  <div style="flex: 1; padding: 16px; background-color: #f6f6f7; border-radius: 8px;">
+    <h4 style="margin-top: 0;">Reddit Community (r/UBC)</h4>
+    <p>This community on Reddit has grown to support over 90,000 users (as of 2024). These users include students, professors, staff, and other community members.</p>
+    <p><strong>Link:</strong> <a href="https://reddit.com/r/UBC/">https://reddit.com/r/UBC/</a></p>
+  </div>
 
----
-
-<br>
-
-## Overview
-
-<div class="grid cards" markdown>
-
-- __✨ Essential Tools & Guides__
-
-    ---
-
-    Includes guides and tools for:
-
-    * admissions
-    * course registration
-    * finding textbooks
-    * mental health resources
-    
-    Other pages being built include housing and recommended courses (ex. GPA boosters).
-
-    <br>
-
-    [Jump to section :material-arrow-right:](./tools.md){ .md-button .md-button--stretch-center }
-
-- __📌 Get around Campus__
-
-    ---
-
-    Includes guides and tools for:
-
-    * Places to visit on campus
-    * Study Spots
-    * Food Spots
-    * Lost & Found tips
-
-    We are also collecting information on where to find lockers, printers, showers, nap/sleep spots, etc.
-
-    <br>
-
-    [Jump to section :material-arrow-right:](./campus/general-guide.md){ .md-button .md-button--stretch-center }
-
+  <div style="flex: 1; padding: 16px; background-color: #f6f6f7; border-radius: 8px;">
+    <h4 style="margin-top: 0;">Fediverse Community (!UBC@lemmy.ca)</h4>
+    <p>After Reddit made harmful changes in 2023, a backup community was created. This decentralized and open-source alternative, managed by a non-profit, will guarantee that the UBC community has a space to connect, share, and discuss.</p>
+    <p><strong>Link:</strong> <a href="https://lemmy.ca/c/ubc">https://lemmy.ca/c/ubc</a></p>
+  </div>
 </div>
 
-!!! tip
-    
-    Open the sidebar in each section to see all pages for that section
-
-<br>
-
-
-
-## Our Online Communities
-
-<div class="grid cards" markdown>
-
-- :simple-reddit: __Reddit Community (r/UBC)__
-
-    ---
-
-    **Link:** [https://reddit.com/r/UBC/](https://reddit.com/r/ubc)
-    
-    This community on Reddit has grown to support over 90,000 users (as of 2024). These users include students, professors, staff, and other community members.
-
- <!-- The subreddit is not private, there is a bug with shields.io badges. -->
-
-- :simple-lemmy: __Lemmy Community (c/UBC)__
-
-    ---
-
-    **Link:** [https://lemmy.ca/c/ubc](https://lemmy.ca/c/ubc)
-
-    After Reddit made harmful changes in 2023, a backup community was created. This decentralized and open-source alternative, managed by a non-profit, will guarantee that the UBC community has a space to connect, share, and discuss.
-    
-</div>
-
-
-For stats, census results, and the winners of the annual 'Best of' : [🙌 History & Best Posts](./meta/community.md)
-
-<br>
-<br>
+<!-- TODO: For stats, census results, and the winners of the annual 'Best of' : 🙌 History & Best Posts -->
 
 ## Contributing
 
@@ -101,11 +55,14 @@ See an error? Want to add something? See below:
 - Discuss in the UBC [Reddit](https://reddit.com/r/ubc) and [Lemmy](https://lemmy.ca/c/ubc) communities
 - Share the wiki with others
 
-!!! info
 
-    If you are familiar with GitHub, you can also [create an issue](https://github.com/CommunityUBC/ubcwiki/issues), or implement the changes yourself and submit a pull request into the `STAGING` branch. New ideas submitted by other means will be added as issues.
+::: info
 
-    For instructions on how to edit things on the site, see the [instructions here](./meta/project.md). 
-    
-    Want to learn how to use Github: [Hello-World (guides.github.com)](https://guides.github.com/activities/hello-world/)
+If you are familiar with GitHub, you can also [create an issue](https://github.com/Community-UBC/wiki/issues), or implement the changes yourself and submit a pull request. New ideas submitted by other means will be added as issues.
+
+<!-- TODO: For instructions on how to edit things on the site, see the [instructions here](./meta/project.md).  -->
+
+Want to learn how to use Github: [Hello-World (guides.github.com)](https://guides.github.com/activities/hello-world/)
+
+:::
 
